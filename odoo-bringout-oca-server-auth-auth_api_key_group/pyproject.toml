@@ -1,0 +1,47 @@
+[project]
+name = "odoo-bringout-oca-server-auth-auth_api_key_group"
+version = "16.0.0"
+description = "Auth API key group - 
+Allow grouping API keys together.
+
+Grouping per se does nothing. This feature is supposed to be used by other modules
+to limit access to services or records based on groups of keys.
+    "
+authors = [
+    { name = "Ernad Husremovic", email = "hernad@bring.out.ba" }
+]
+dependencies = [
+    "odoo-bringout-oca-server-auth-auth_api_key>=16.0.0",
+    "requests>=2.25.1"
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11", 
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+]
+
+[project.urls]
+homepage = "https://github.com/bringout/0"
+repository = "https://github.com/bringout/0"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["auth_api_key_group"]
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.4.1",
+]
