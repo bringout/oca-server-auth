@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [auth_api_key](../../../../odoo-bringout-oca-server-auth-auth_api_key)
+- [auth_api_key](https://github.com/bringout/oca-server-auth)
 - server_environment

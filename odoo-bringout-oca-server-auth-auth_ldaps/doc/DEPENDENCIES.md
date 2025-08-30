@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [auth_ldap](../../../../../oca-ocb-security/odoo-bringout-oca-ocb-auth_ldap)
+- [auth_ldap](https://github.com/bringout/oca-ocb-security)

@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [auth_signup](../../../../../oca-ocb-security/odoo-bringout-oca-ocb-auth_signup)
-- [auth_password_policy_signup](../../../../../oca-ocb-security/odoo-bringout-oca-ocb-auth_password_policy_signup)
+- [auth_signup](https://github.com/bringout/oca-ocb-security)
+- [auth_password_policy_signup](https://github.com/bringout/oca-ocb-security)

@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [vault](../../../../odoo-bringout-oca-server-auth-vault)
+- [vault](https://github.com/bringout/oca-server-auth)

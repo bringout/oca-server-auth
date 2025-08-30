@@ -2,5 +2,5 @@
 
 This addon depends on:
 
-- [extendable_fastapi](../../../../../oca-technical/odoo-bringout-oca-rest-framework-extendable_fastapi)
+- [extendable_fastapi](https://github.com/bringout/oca-technical)
 - server_environment
