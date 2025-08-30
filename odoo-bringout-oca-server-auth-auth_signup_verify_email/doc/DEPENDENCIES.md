@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [auth_signup](https://github.com/bringout/oca-ocb-security/tree/9ea1af542e169bea280f2d88457fe1472ce74ff7/odoo-bringout-oca-ocb-auth_signup)
+- [auth_signup](https://github.com/bringout/oca-ocb-security/tree/5a3f9f7279f87478e7f08e8d7a560d9daa74ffc4/odoo-bringout-oca-ocb-auth_signup)
