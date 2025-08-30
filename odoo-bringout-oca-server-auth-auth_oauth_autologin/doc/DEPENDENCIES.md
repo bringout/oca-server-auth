@@ -2,4 +2,4 @@
 
 This addon depends on:
 
-- [auth_oauth](https://github.com/bringout/oca-ocb-security/tree/7fc5982b6b53543a3a2f50ff6c43d02d7cee1e7c/odoo-bringout-oca-ocb-auth_oauth)
+- [auth_oauth](https://github.com/bringout/oca-ocb-security/tree/9d3d20ba5eaca057c268869e706c2a3329b495c2/odoo-bringout-oca-ocb-auth_oauth)
