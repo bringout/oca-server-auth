@@ -15,12 +15,14 @@ msgstr ""
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+#: code:addons/auth_jwt/models/auth_jwt_validator.py
 #, python-format
 msgid ""
 "A cookie name must be provided on JWT validator %s because it has cookie "
 "mode enabled."
 msgstr ""
+"Ime cookie-ja mora biti pruženo na JWT validatoru %s jer ima omogućen cookie"
+" režim."
 
 #. module: auth_jwt
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
@@ -44,6 +46,8 @@ msgid ""
 "Authorization header and the cookie are present in the request, the cookie "
 "is ignored."
 msgstr ""
+"Konvertuj JWT token u HttpOnly Secure cookie. Kada su i Authorization "
+"zaglavlje i cookie prisutni u zahtjevu, cookie se ignoriše."
 
 #. module: auth_jwt
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
@@ -162,7 +166,6 @@ msgstr "Konfiguracija JWT validatora"
 
 #. module: auth_jwt
 #: model:ir.actions.act_window,name:auth_jwt.action_auth_jwt_validator
-#: model:ir.ui.menu,name:auth_jwt.menu_auth_jwt_validator
 msgid "JWT Validators"
 msgstr "JWT validatori"
 
@@ -198,7 +201,7 @@ msgstr "Naziv:"
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+#: code:addons/auth_jwt/models/auth_jwt_validator.py
 #, python-format
 msgid "Name %r is not a valid python identifier."
 msgstr "Naziv %r nije valjani python identifikator."
@@ -335,7 +338,7 @@ msgstr "Strategija ID korisnika"
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+#: code:addons/auth_jwt/models/auth_jwt_validator.py
 #, python-format
 msgid "Validators mustn't make a closed chain: {}."
 msgstr "Validatori ne smiju praviti zatvoreni lanac: {}."

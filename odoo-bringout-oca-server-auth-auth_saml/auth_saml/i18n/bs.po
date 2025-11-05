@@ -20,7 +20,7 @@ msgstr "— ili —"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py:0
+#: code:addons/auth_saml/controllers/main.py
 #, python-format
 msgid "Access Denied"
 msgstr "Pristup Odbijen"
@@ -45,10 +45,11 @@ msgstr "Algoritam koji se koristi za potpisivanje zahtjeva."
 msgid ""
 "Allow SAML users to possess an Odoo password (warning: decreases security)"
 msgstr ""
+"Dozvoli SAML korisnicima da posjeduju Odoo lozinku (upozorenje: smanjuje "
+"sigurnost)"
 
 #. module: auth_saml
 #: model_terms:ir.ui.view,arch_db:auth_saml.auth_saml_provider_view_search
-#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -63,6 +64,8 @@ msgid ""
 "Attribute to look for in the returned IDP response to match against an Odoo "
 "user."
 msgstr ""
+"Atribut koji se traži u vraćenom IDP odgovoru za poklapanje sa Odoo "
+"korisnikom."
 
 #. module: auth_saml
 #: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
@@ -71,6 +74,9 @@ msgid ""
 "Provider). You may use the special case \"subject.nameId\" to match against "
 "the nameId in the IDP response."
 msgstr ""
+"Atribut za poklapanje korisnika u Odoo sa IDP-om (provajderom identiteta). "
+"Možete koristiti specijalan slučaj \"subject.nameId\" za poklapanje sa "
+"nameId u IDP odgovoru."
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__authn_requests_signed
@@ -88,6 +94,8 @@ msgid ""
 "Available after first save. The URL will change if the provider is deleted "
 "&amp; recreated or the database is renamed."
 msgstr ""
+"Dostupno nakon prvog snimanja. URL će se promijeniti ako se provajder obriše"
+" i ponovo kreira ili ako se baza podataka preimenuje."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__sp_baseurl
@@ -95,6 +103,8 @@ msgid ""
 "Base URL sent to Odoo with this, rather than automatically\n"
 "        detecting from request or system parameter web.base.url"
 msgstr ""
+"Bazni URL poslan Odoo sa ovim, umjesto automatskog\n"
+"        detektovanja iz zahtjeva ili sistemskog parametra web.base.url"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__css_class
@@ -112,20 +122,16 @@ msgid ""
 "Configuration for this Identity Provider. Supplied by the provider, in XML "
 "format."
 msgstr ""
+"Konfiguracija za ovog provajdera identiteta. Dobavljena od provajdera, u XML"
+" formatu."
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__create_uid
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__create_uid
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__create_uid
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__create_date
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__create_date
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__create_date
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -141,9 +147,6 @@ msgstr "Trenutni SAML token za ovog korisnika"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__display_name
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__display_name
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__display_name
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -155,7 +158,7 @@ msgstr "Postavke prikaza"
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__entity_id
 msgid "Entity ID"
-msgstr "Entity ID"
+msgstr "ID entiteta"
 
 #. module: auth_saml
 #: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
@@ -163,6 +166,8 @@ msgid ""
 "Entity Identifier sent to the IDP. Often this would be the metadata URL, but"
 " it can be any string."
 msgstr ""
+"Identifikator entiteta poslan IDP-u. Često bi ovo bio URL metapodataka, ali "
+"može biti bilo koji string."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__entity_id
@@ -176,9 +181,6 @@ msgstr "Forsiraj matching_attribute na mala slova prije vraćanja u Odoo."
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__id
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__id
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__id
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__id
 msgid "ID"
 msgstr "ID"
 
@@ -218,6 +220,8 @@ msgid ""
 "Indicates if the Authentication Requests sent by this SP should be signed by"
 " default."
 msgstr ""
+"Označava da li autentifikacijski zahtjevi poslani od strane ovog SP-a treba "
+"da budu potpisani po defaultu."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__want_assertions_signed
@@ -229,11 +233,14 @@ msgstr "Označava da li ovaj SP želi da IdP pošalje potpisane tvrdnje."
 msgid ""
 "Indicates if this entity will sign the Logout Requests originated from it."
 msgstr ""
+"Označava da li će ovaj entitet potpisati zahtjeve za odjavu nastale od "
+"njega."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__want_response_signed
 msgid "Indicates that Authentication Responses to this SP must be signed."
-msgstr "Označava da odgovori za autentifikaciju ovom SP-u moraju biti potpisani."
+msgstr ""
+"Označava da odgovori za autentifikaciju ovom SP-u moraju biti potpisani."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__want_assertions_or_response_signed
@@ -241,28 +248,21 @@ msgid ""
 "Indicates that either the Authentication Response or the assertions "
 "contained within the response to this SP must be signed."
 msgstr ""
+"Označava da ili autentifikacijski odgovor ili tvrdnje sadržane u odgovoru "
+"ovom SP-u moraju biti potpisane."
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping____last_update
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider____last_update
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request____last_update
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__write_uid
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__write_uid
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__write_uid
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__write_date
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__write_date
-#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__write_date
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -293,15 +293,18 @@ msgid ""
 "available. If multiple values are returned (i.e. a list) then the first "
 "value is used."
 msgstr ""
+"Mapirani atributi se kopiraju iz SAML odgovora pri svakoj prijavi, ako su "
+"dostupni. Ako se vrati više vrijednosti (tj. lista) tada se koristi prva "
+"vrijednost."
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sp_metadata_url
 msgid "Metadata URL"
-msgstr "Metadata URL"
+msgstr "URL metapodataka"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py:0
+#: code:addons/auth_saml/controllers/main.py
 #, python-format
 msgid "Missing parameters"
 msgstr "Nedostaju parametri"
@@ -340,7 +343,7 @@ msgstr "Odoo postavke"
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__autoredirect
 msgid ""
 "Only the provider with the higher priority will be automatically redirected"
-msgstr ""
+msgstr "Samo provajder sa višim prioritetom će biti automatski preusmjeren"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sp_baseurl
@@ -359,7 +362,6 @@ msgstr "Naziv davatelja"
 
 #. module: auth_saml
 #: model:ir.actions.act_window,name:auth_saml.action_saml_provider
-#: model_terms:ir.ui.view,arch_db:auth_saml.auth_saml_provider_view_search
 msgid "Providers"
 msgstr "Pružatelji"
 
@@ -380,7 +382,6 @@ msgstr "SAML neriješeni zahtjevi"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__saml_provider_id
-#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
 msgid "SAML Provider"
 msgstr "SAML davatelj"
 
@@ -441,7 +442,7 @@ msgstr "Potpiši metapodatke"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py:0
+#: code:addons/auth_saml/controllers/main.py
 #, python-format
 msgid "Sign up is not allowed on this database."
 msgstr "Prijava nije dozvoljena na ovoj bazi."
@@ -458,6 +459,10 @@ msgid ""
 "changes over time, and they provide a URL to the document instead. When this"
 " field is set, the metadata can be fetched from the provided URL."
 msgstr ""
+"Neki SAML provajderi, naročito Office365, mogu imati metapodatke dokument "
+"koji se mijenja s vremenom, i oni pružaju URL do dokumenta umjesto toga. "
+"Kada je ovo polje postavljeno, metapodaci se mogu preuzeti sa pruženog "
+"URL-a."
 
 #. module: auth_saml
 #: model:ir.model,name:auth_saml.model_ir_config_parameter
@@ -471,6 +476,10 @@ msgid ""
 "odoo responding on multiple URLs you can use this to force it to send a "
 "specific address rather than rely on automatically detecting."
 msgstr ""
+"URL konfigurisan za ACS mora se tačno poklapati sa onim što je poslano. Ako "
+"imate Odoo koji odgovara na više URL-ova, možete koristiti ovo da ga "
+"prisilite da pošalje specifičnu adresu umjesto oslanjanja na automatsko "
+"detektovanje."
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_res_users_saml__saml_access_token
@@ -479,16 +488,18 @@ msgstr "Trenutni SAML token u upotrebi"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/models/res_users.py:0
+#: code:addons/auth_saml/models/res_users.py
 #, python-format
 msgid ""
 "This database disallows users to have both passwords and SAML IDs. Error for"
 " logins %s"
 msgstr ""
+"Ova baza podataka ne dozvoljava korisnicima da imaju i lozinke i SAML ID-"
+"ove. Greška za prijave %s"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py:0
+#: code:addons/auth_saml/controllers/main.py
 #, python-format
 msgid "Unknown provider"
 msgstr "Nepoznat davatelj"
@@ -499,10 +510,11 @@ msgid ""
 "Used to sign requests sent to the IDP. You can use openssl to generate a "
 "certificate and key."
 msgstr ""
+"Koristi se za potpisivanje zahtjeva poslanih IDP-u. Možete koristiti openssl"
+" za generisanje certifikata i ključa."
 
 #. module: auth_saml
 #: model:ir.model,name:auth_saml.model_res_users
-#: model:ir.model.fields,field_description:auth_saml.field_res_users_saml__user_id
 msgid "User"
 msgstr "Korisnik"
 
@@ -538,7 +550,7 @@ msgstr "Da li zahtjev treba biti potpisan ili ne"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py:0
+#: code:addons/auth_saml/controllers/main.py
 #, python-format
 msgid "You do not have access to this database. Please contact support."
 msgstr "Nemate pristup ovoj bazi podataka. Molimo kontaktirajte podršku."

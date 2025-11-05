@@ -15,39 +15,47 @@ msgstr ""
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid ""
 "\n"
 "* Lowercase letter (at least %s characters)"
 msgstr ""
+"\n"
+"* Malo slovo (najmanje %s znakova)"
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid ""
 "\n"
 "* Numeric digit (at least %s characters)"
 msgstr ""
+"\n"
+"* Numerička cifra (najmanje %s znakova)"
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid ""
 "\n"
 "* Special character (at least %s characters)"
 msgstr ""
+"\n"
+"* Poseban znak (najmanje %s znakova)"
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid ""
 "\n"
 "* Uppercase letter (at least %s characters)"
 msgstr ""
+"\n"
+"* Veliko slovo (najmanje %s znakova)"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -56,20 +64,25 @@ msgid ""
 "                               Minimum number of characters\n"
 "                          </span>"
 msgstr ""
+"<span id=\"minlength\">\n"
+"                               Minimalan broj znakova\n"
+"                          </span>"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_minimum
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_minimum
 msgid "Amount of hours until a user may change password again"
 msgstr "Broj sati prije nego korisnik može ponovo promijeniti pasword"
 
+# taken from hr.po
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid "Cannot use the most recent %d passwords"
 msgstr "Nije moguće korištenje zadnjih %d passworda"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_company
 msgid "Companies"
@@ -80,24 +93,27 @@ msgstr "Tvrtke"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__date
 msgid "Date"
 msgstr "Datum"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_expiration
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_expiration
 msgid "Days"
 msgstr "Dana"
 
@@ -108,31 +124,34 @@ msgstr "Disallow reuse of"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_history
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_history
 msgid ""
 "Disallow reuse of this many previous passwords - use negative number for "
 "infinite, or 0 to disable"
 msgstr ""
+"Disallow reuse of this many previous passwords - use negative Broj for "
+"infinite, or 0 to disable"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__password_crypt
 msgid "Encrypted Password"
 msgstr "Kriptirana lozina"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_history
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_history
 msgid "History"
 msgstr "Povijest"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_expiration
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_expiration
 msgid "How many days until passwords expire"
 msgstr "Dana do isteka passworda"
 
@@ -141,16 +160,19 @@ msgstr "Dana do isteka passworda"
 msgid "ID"
 msgstr "ID"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_date
 msgid "Last Updated on"
@@ -161,15 +183,15 @@ msgstr "Zadnje ažurirano"
 msgid "Last password update"
 msgstr "Last password update"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_lower
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_lower
 msgid "Lowercase"
 msgstr "Malim slovima"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_minimum
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_minimum
 msgid "Minimum Hours"
 msgstr "Minimalno sati"
 
@@ -195,14 +217,13 @@ msgstr "Minimum Broj of uppercase characters"
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid "Must contain the following:"
 msgstr "Mora contain the Sljedeći:"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_numeric
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_numeric
 msgid "Numeric"
 msgstr "Numerički"
 
@@ -214,7 +235,7 @@ msgstr "Password History"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Password Policy"
-msgstr "Password Policy"
+msgstr "Politika lozinki"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -223,41 +244,39 @@ msgstr "Password expires in"
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid "Password must be %d characters or more."
 msgstr "Password Mora be %d characters or more."
 
 #. module: password_security
 #. odoo-python
-#: code:addons/password_security/models/res_users.py:0
+#: code:addons/password_security/models/res_users.py
 #, python-format
 msgid ""
 "Passwords can only be reset every %d hour(s). Please contact an "
 "administrator for assistance."
 msgstr ""
+"Passwords can only be reset every %d hour(s). Please contact an "
+"administrator for assistance."
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_lower
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_lower
 msgid "Require number of lowercase letters"
 msgstr "Require Broj of lowercase letters"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_numeric
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_numeric
 msgid "Require number of numeric digits"
 msgstr "Require Broj of numeric digits"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_special
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_special
 msgid "Require number of unique special characters"
 msgstr "Require Broj of unique special characters"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_upper
-#: model:ir.model.fields,help:password_security.field_res_config_settings__password_upper
 msgid "Require number of uppercase letters"
 msgstr "Require Broj of uppercase letters"
 
@@ -268,13 +287,11 @@ msgstr "Res Users Password History"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_special
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_special
 msgid "Special"
 msgstr "Specijalno"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_upper
-#: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_upper
 msgid "Uppercase"
 msgstr "Uppercase"
 
@@ -283,9 +300,9 @@ msgstr "Uppercase"
 msgid "Use negative number for infinite, or 0 to disable"
 msgstr "Use negative Broj for infinite, or 0 to disable"
 
+# taken from hr.po
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_users
-#: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__user_id
 msgid "User"
 msgstr "Korisnik"
 

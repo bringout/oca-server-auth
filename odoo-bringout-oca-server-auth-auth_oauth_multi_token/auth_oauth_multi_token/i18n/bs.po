@@ -61,7 +61,7 @@ msgstr "Najnoviji tokeni"
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_master_uuid
 msgid "Master UUID"
-msgstr "Master UUID"
+msgstr "Glavni UUID"
 
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_max_token
@@ -85,6 +85,5 @@ msgstr "OAuth2 token"
 
 #. module: auth_oauth_multi_token
 #: model:ir.model,name:auth_oauth_multi_token.model_res_users
-#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__user_id
 msgid "User"
 msgstr "Korisnik"

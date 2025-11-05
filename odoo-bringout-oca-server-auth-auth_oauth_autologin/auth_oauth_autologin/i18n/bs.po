@@ -24,6 +24,8 @@ msgid ""
 "If exactly one enabled provider has this checked, the login screen redirects"
 " to the OAuth provider."
 msgstr ""
+"Ako tačno jedan omogućen provajder ima ovu opciju označenu, ekran za prijavu"
+" preusmjerava na OAuth provajdera."
 
 #. module: auth_oauth_autologin
 #: model:ir.model,name:auth_oauth_autologin.model_auth_oauth_provider

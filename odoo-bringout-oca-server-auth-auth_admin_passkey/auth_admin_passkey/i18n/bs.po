@@ -13,16 +13,17 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: auth_admin_passkey
 #. odoo-python
-#: code:addons/auth_admin_passkey/models/res_users.py:0
+#: code:addons/auth_admin_passkey/models/res_users.py
 #, python-format
 msgid "Passkey used"
 msgstr "Korišten ključ"
 
 #. module: auth_admin_passkey
 #. odoo-python
-#: code:addons/auth_admin_passkey/models/res_users.py:0
+#: code:addons/auth_admin_passkey/models/res_users.py
 #, python-format
 msgid ""
 "System Administrator user used his passkey to login with %(login)s.\n"
@@ -34,6 +35,14 @@ msgid ""
 "- Login date : %(login_date)s\n"
 "\n"
 msgstr ""
+"Korisnik Sistemskog administratora je koristio svoj passkey za prijavu sa %(login)s.\n"
+"\n"
+"\n"
+"\n"
+"Tehničke informacije ispod : \n"
+"\n"
+"- Datum prijave : %(login_date)s\n"
+"\n"
 
 #. module: auth_admin_passkey
 #: model:ir.model,name:auth_admin_passkey.model_res_users

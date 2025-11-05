@@ -13,9 +13,10 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: auth_user_case_insensitive
 #. odoo-python
-#: code:addons/auth_user_case_insensitive/hooks.py:0
+#: code:addons/auth_user_case_insensitive/hooks.py
 #, python-format
 msgid "Conflicting user logins exist for `%s`"
 msgstr "Korisnička imena se preklapaju za  `%s`"
@@ -28,7 +29,8 @@ msgstr "Prijava"
 #. module: auth_user_case_insensitive
 #: model:ir.model.fields,help:auth_user_case_insensitive.field_res_users__login
 msgid "Used to log into the system. Case insensitive."
-msgstr "Koristi se za prijavu u sistem. Bez razlikovanja velikih i malih slova."
+msgstr ""
+"Koristi se za prijavu u sistem. Bez razlikovanja velikih i malih slova."
 
 #. module: auth_user_case_insensitive
 #: model:ir.model,name:auth_user_case_insensitive.model_res_users

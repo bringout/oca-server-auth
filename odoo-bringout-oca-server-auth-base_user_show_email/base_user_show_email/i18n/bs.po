@@ -20,6 +20,5 @@ msgstr "E-mail adresa"
 
 #. module: base_user_show_email
 #: model_terms:ir.ui.view,arch_db:base_user_show_email.login
-#: model_terms:ir.ui.view,arch_db:base_user_show_email.user_email_form
 msgid "Login"
 msgstr "Prijava"

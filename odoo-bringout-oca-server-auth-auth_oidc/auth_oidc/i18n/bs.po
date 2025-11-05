@@ -19,6 +19,8 @@ msgid ""
 "Additional parameters for the auth link. For example: "
 "{'prompt':'select_account'}"
 msgstr ""
+"Dodatni parametri za autentifikacijski link. Na primjer: "
+"{'prompt':'select_account'}"
 
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__flow
@@ -38,7 +40,7 @@ msgstr "Tajni klijent"
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__code_verifier
 msgid "Code Verifier"
-msgstr "Code Verifier"
+msgstr "Verifikator koda"
 
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__jwks_uri
@@ -47,7 +49,6 @@ msgstr "JWKS URL"
 
 #. module: auth_oidc
 #: model:auth.oauth.provider,body:auth_oidc.provider_azuread_multi
-#: model:auth.oauth.provider,body:auth_oidc.provider_azuread_single
 msgid "Log in with Microsoft"
 msgstr "Prijavite se sa Microsoft"
 
@@ -88,6 +89,9 @@ msgid ""
 "  It is important to ensure user_id and email at least are mapped. For "
 "OpenID Connect user_id is the sub key in the standard."
 msgstr ""
+"Neki Oauth provajderi ne mapiraju ključeve u svojim odgovorima tačno kao što"
+" je potrebno. Važno je osigurati da su barem user_id i email mapirani. Za "
+"OpenID Connect user_id je sub ključ u standardu."
 
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__token_map
@@ -97,7 +101,7 @@ msgstr "Mapa tokena"
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__token_endpoint
 msgid "Token URL"
-msgstr "Token URL"
+msgstr "URL tokena"
 
 #. module: auth_oidc
 #: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__code_verifier
@@ -109,6 +113,8 @@ msgstr "Koristi se za PKCE."
 msgid ""
 "Used in OpenID Connect authorization code flow for confidential clients."
 msgstr ""
+"Koristi se u OpenID Connect toku autorizacijskog koda za povjerljive "
+"klijente."
 
 #. module: auth_oidc
 #: model:ir.model,name:auth_oidc.model_res_users
@@ -118,7 +124,7 @@ msgstr "Korisnik"
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__validation_endpoint
 msgid "UserInfo URL"
-msgstr "UserInfo URL"
+msgstr "URL korisničkih informacija"
 
 #. module: auth_oidc
 #: model_terms:ir.ui.view,arch_db:auth_oidc.view_oidc_provider_form

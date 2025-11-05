@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: user_log_view
 #: model:ir.actions.act_window,name:user_log_view.action_user_log
-#: model_terms:ir.ui.view,arch_db:user_log_view.res_users_view_form
 msgid "Authentication logs"
 msgstr "Logovi autentifikacije"
 

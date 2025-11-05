@@ -25,7 +25,6 @@ msgstr "Naziv API ključa mora biti jedinstven."
 
 #. module: auth_api_key
 #: model:ir.actions.act_window,name:auth_api_key.auth_api_key_act_window
-#: model:ir.ui.menu,name:auth_api_key.auth_api_key_menu
 msgid "Auth Api Key"
 msgstr "Auth API ključ"
 
@@ -85,10 +84,12 @@ msgid ""
 "The API key. Enter a dummy value in this field if it is\n"
 "        obtained from the server environment configuration."
 msgstr ""
+"API ključ. Unesite lažnu vrijednost u ovo polje ako se\n"
+"        dobija iz konfiguracije serverskog okruženja."
 
 #. module: auth_api_key
 #. odoo-python
-#: code:addons/auth_api_key/models/auth_api_key.py:0
+#: code:addons/auth_api_key/models/auth_api_key.py
 #, python-format
 msgid "The key %s is not allowed"
 msgstr "Ključ %s nije dozvoljen"
@@ -99,6 +100,8 @@ msgid ""
 "The user used to process the requests authenticated by\n"
 "        the api key"
 msgstr ""
+"Korisnik korišten za obradu zahtjeva autentificiranih\n"
+"        api ključem"
 
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__user_id
@@ -107,7 +110,7 @@ msgstr "Korisnik"
 
 #. module: auth_api_key
 #. odoo-python
-#: code:addons/auth_api_key/models/auth_api_key.py:0
+#: code:addons/auth_api_key/models/auth_api_key.py
 #, python-format
 msgid "User is not allowed"
 msgstr "Korisnik nije dozvoljen"

@@ -23,11 +23,13 @@ msgstr "Dodaj populate dugme u ldap prikaz"
 msgid "Company LDAP configuration"
 msgstr "LDAP postavke tvrtke"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__create_date
 msgid "Created on"
@@ -38,6 +40,7 @@ msgstr "Kreirano"
 msgid "Deactivate unknown users"
 msgstr "Deaktiviraj nepoznate korisnike"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__display_name
 msgid "Display Name"
@@ -53,16 +56,19 @@ msgstr "ID"
 msgid "LDAP Configuration"
 msgstr "LDAP konfiguracija"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__write_date
 msgid "Last Updated on"
@@ -71,8 +77,11 @@ msgstr "Zadnje ažurirano"
 #. module: users_ldap_populate
 #: model:ir.model.fields,help:users_ldap_populate.field_res_company_ldap__no_deactivate_user_ids
 msgid "List users who never should be deactivated by the deactivation wizard"
-msgstr "Lista korisnika koji nikad ne bi trebali biti deaktivirani čarobnjakom za deaktivaciju"
+msgstr ""
+"Lista korisnika koji nikad ne bi trebali biti deaktivirani čarobnjakom za "
+"deaktivaciju"
 
+# taken from hr.po
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__name
 msgid "Name"
@@ -80,11 +89,12 @@ msgstr "Ime"
 
 #. module: users_ldap_populate
 #. odoo-python
-#: code:addons/users_ldap_populate/models/users_ldap.py:0
+#: code:addons/users_ldap_populate/models/users_ldap.py
 #, python-format
 msgid ""
 "No login attribute found: Could not extract login attribute from filter %s"
 msgstr ""
+"Nije pronađen login atribut: Nije moguće izvući login atribut iz filtera %s"
 
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__users_created
@@ -118,7 +128,7 @@ msgstr "Popuni korisnike iz LDAP-a"
 
 #. module: users_ldap_populate
 #. odoo-python
-#: code:addons/users_ldap_populate/models/users_ldap.py:0
+#: code:addons/users_ldap_populate/models/users_ldap.py
 #, python-format
 msgid "Unable to process user with login %s"
 msgstr "Nije moguće obraditi korisnika sa loginom %s"

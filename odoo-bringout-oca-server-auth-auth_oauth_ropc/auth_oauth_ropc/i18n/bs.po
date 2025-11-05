@@ -21,7 +21,7 @@ msgstr "Aktivan"
 #. module: auth_oauth_ropc
 #: model:ir.model.fields,field_description:auth_oauth_ropc.field_oauth_ropc_provider__auth_endpoint
 msgid "Authorization URL"
-msgstr "Authorization URL"
+msgstr "URL autorizacije"
 
 #. module: auth_oauth_ropc
 #: model:ir.model.fields,field_description:auth_oauth_ropc.field_oauth_ropc_provider__client_id
@@ -95,13 +95,12 @@ msgstr "Korisnik"
 
 #. module: auth_oauth_ropc
 #. odoo-python
-#: code:addons/auth_oauth_ropc/models/oauth_ropc_provider.py:0
+#: code:addons/auth_oauth_ropc/models/oauth_ropc_provider.py
 #, python-format
 msgid "You can define only one active provider"
 msgstr "Možete definirati samo jednog aktivnog davatelja"
 
 #. module: auth_oauth_ropc
 #: model:ir.actions.act_window,name:auth_oauth_ropc.oauth_ropc_provider_act_window
-#: model:ir.ui.menu,name:auth_oauth_ropc.oauth_ropc_provider_menu
 msgid "oauth ROPC Providers"
 msgstr "oauth ROPC davatelji"

@@ -18,31 +18,37 @@ msgstr ""
 msgid "Company LDAP configuration"
 msgstr "LDAP postavke tvrtke"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,help:users_ldap_groups.field_res_company_ldap__group_mapping_ids
 msgid "Define how Odoo groups are assigned to LDAP users"
 msgstr "Definiraj kako su Odoo grupe dodijeljene LDAP korisnicima"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model,name:users_ldap_groups.model_res_company_ldap_operator
 msgid "Definition op LDAP operations"
 msgstr "Definicija LDAP operacija"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__display_name
 msgid "Display Name"
 msgstr "Naziv"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap__group_mapping_ids
 msgid "Group mappings"
@@ -60,7 +66,11 @@ msgid ""
 "login (so Odoo groups are always synchronous with LDAP groups). If not, "
 "manually added groups are preserved."
 msgstr ""
+"Ako je označeno, manualne izmene članstva u grupama se poništavaju pri "
+"svakoj prijavi (tako da su Odoo grupe uvek sinhroni sa LDAP grupama). Ako "
+"nije, manualno dodane grupe se čuvaju."
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__ldap_attribute
 msgid "LDAP attribute"
@@ -76,11 +86,13 @@ msgstr "LDAP mapiranje grupa"
 msgid "LDAP server"
 msgstr "LDAP server"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping____last_update
 msgid "Last Modified on"
 msgstr "Zadnje modificirano"
 
+# taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__write_uid
 msgid "Last Updated by"
@@ -117,6 +129,8 @@ msgid ""
 "The LDAP attribute to check.\n"
 "For active directory, use memberOf."
 msgstr ""
+"LDAP atribut za provjeru.\n"
+"Za active directory, koristite memberOf."
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,help:users_ldap_groups.field_res_company_ldap_group_mapping__group_id
@@ -125,12 +139,14 @@ msgstr "Odoo grupa za dodelu"
 
 #. module: users_ldap_groups
 #. odoo-python
-#: code:addons/users_ldap_groups/models/res_company_ldap.py:0
+#: code:addons/users_ldap_groups/models/res_company_ldap.py
 #, python-format
 msgid ""
 "The created user needs to have one (and only one) of the 'User types /' "
 "groups defined."
 msgstr ""
+"Kreirani korisnik treba da ima jednu (i samo jednu) od grupa 'Tipovi "
+"korisnika /' definisanih."
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,help:users_ldap_groups.field_res_company_ldap_group_mapping__operator
@@ -138,6 +154,8 @@ msgid ""
 "The operator to check the attribute against the value\n"
 "For active directory, use 'contains'"
 msgstr ""
+"Operator za provjeru atributa protiv vrednosti\n"
+"Za active directory, koristite 'contains'"
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,help:users_ldap_groups.field_res_company_ldap_group_mapping__value
@@ -145,6 +163,8 @@ msgid ""
 "The value to check the attribute against.\n"
 "For active directory, use the dn of the desired group"
 msgstr ""
+"Vrednost za provjeru atributa protiv.\n"
+"Za active directory, koristite dn željena grupa"
 
 #. module: users_ldap_groups
 #: model:ir.model,name:users_ldap_groups.model_res_users

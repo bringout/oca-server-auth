@@ -13,18 +13,22 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: users_ldap_mail
 #: model:ir.model.fields,help:users_ldap_mail.field_res_company_ldap__name_attribute
 msgid ""
 "By default 'cn' is used. For ActiveDirectory you might use 'displayName' "
 "instead."
 msgstr ""
+"Zadano se koristi 'CN'. za ActiveDirectory možete koristiti 'displayName' "
+"umjesto zadanog."
 
 #. module: users_ldap_mail
 #: model:ir.model,name:users_ldap_mail.model_res_company_ldap
 msgid "Company LDAP configuration"
 msgstr "LDAP postavke tvrtke"
 
+# taken from hr.po
 #. module: users_ldap_mail
 #: model:ir.model.fields,field_description:users_ldap_mail.field_res_company_ldap__mail_attribute
 msgid "E-mail attribute"
@@ -35,6 +39,7 @@ msgstr "Atribut e-mail"
 msgid "LDAP attribute to use to retrieve e-mail address."
 msgstr "LDAP atribut za preuzimanje e-mail adrese."
 
+# taken from hr.po
 #. module: users_ldap_mail
 #: model:ir.model.fields,field_description:users_ldap_mail.field_res_company_ldap__name_attribute
 msgid "Name Attribute"
