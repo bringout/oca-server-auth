@@ -46,7 +46,7 @@ msgstr "Definicija LDAP operacija"
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Prikazani naziv"
 
 # taken from hr.po
 #. module: users_ldap_groups
@@ -90,18 +90,18 @@ msgstr "LDAP server"
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena na"
 
 # taken from hr.po
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: users_ldap_groups
 #: model:ir.model.fields,field_description:users_ldap_groups.field_res_company_ldap_group_mapping__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: users_ldap_groups
 #: model_terms:ir.ui.view,arch_db:users_ldap_groups.view_ldap_installer_form

@@ -41,17 +41,17 @@ msgstr "ID"
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: auth_oauth_multi_token
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: auth_oauth_multi_token
 #: model_terms:ir.ui.view,arch_db:auth_oauth_multi_token.view_users_form
