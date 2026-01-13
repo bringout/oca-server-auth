@@ -91,7 +91,7 @@ msgstr "Tvrtke"
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: password_security
@@ -135,7 +135,7 @@ msgstr ""
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 # taken from hr.po
 #. module: password_security
@@ -164,19 +164,19 @@ msgstr "ID"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 # taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 # taken from hr.po
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users__password_write_date

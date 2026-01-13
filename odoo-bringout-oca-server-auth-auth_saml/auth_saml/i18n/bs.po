@@ -114,7 +114,7 @@ msgstr "CSS klasa ikone dugmeta"
 #. module: auth_saml
 #: model:ir.model,name:auth_saml.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__idp_metadata
@@ -254,17 +254,17 @@ msgstr ""
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__body

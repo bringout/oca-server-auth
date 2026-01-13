@@ -100,17 +100,17 @@ msgstr "To ste vi."
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__impersonated_partner_id
@@ -132,7 +132,7 @@ msgstr "Poruka"
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__date_start
 msgid "Start Date"
-msgstr "Datum početka"
+msgstr "Početni datum"
 
 #. module: impersonate_login
 #. odoo-javascript

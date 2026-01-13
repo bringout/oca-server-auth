@@ -61,17 +61,17 @@ msgstr "Ključ"
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: auth_api_key
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__name

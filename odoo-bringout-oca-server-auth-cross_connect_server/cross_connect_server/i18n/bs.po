@@ -120,17 +120,17 @@ msgstr "Neispravan token"
 #. module: cross_connect_server
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: cross_connect_server
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: cross_connect_server
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: cross_connect_server
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__name

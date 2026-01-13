@@ -26,7 +26,7 @@ msgstr "Datum"
 #. module: user_log_view
 #: model_terms:ir.ui.view,arch_db:user_log_view.res_users_log_view_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: user_log_view
 #: model_terms:ir.ui.view,arch_db:user_log_view.res_users_log_view_search

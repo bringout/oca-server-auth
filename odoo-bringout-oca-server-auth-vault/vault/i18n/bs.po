@@ -180,7 +180,7 @@ msgstr "Otkaži"
 #: code:addons/vault/static/src/common/utils.esm.js
 #, python-format
 msgid "Cancelled"
-msgstr "Otkazano"
+msgstr "Otkazan"
 
 #. module: vault
 #. odoo-javascript
@@ -212,7 +212,7 @@ msgstr "Puni naziv"
 #. module: vault
 #: model:ir.model,name:vault.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: vault
 #. odoo-javascript
@@ -615,17 +615,17 @@ msgstr "Ključevi"
 #. module: vault
 #: model:ir.model.fields,field_description:vault.field_res_users_key____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: vault
 #: model:ir.model.fields,field_description:vault.field_res_users_key__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: vault
 #: model:ir.model.fields,field_description:vault.field_res_users_key__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: vault
 #. odoo-javascript
