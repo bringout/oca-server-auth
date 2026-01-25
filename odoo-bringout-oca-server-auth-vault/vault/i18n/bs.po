@@ -18,7 +18,7 @@ msgstr ""
 #: code:addons/vault/models/vault_entry.py
 #, python-format
 msgid "%(action)s entry %(name)s by %(user)s"
-msgstr "Bilten za potencijalne kupce"
+msgstr "%(action)s entry %(name)s by %(user)s"
 
 #. module: vault
 #. odoo-javascript
