@@ -44,7 +44,7 @@ msgstr "Deaktiviraj nepoznate korisnike"
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__id
@@ -60,7 +60,7 @@ msgstr "LDAP konfiguracija"
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: users_ldap_populate
@@ -85,11 +85,11 @@ msgstr ""
 #. module: users_ldap_populate
 #: model:ir.model.fields,field_description:users_ldap_populate.field_res_company_ldap_populate_wizard__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: users_ldap_populate
 #. odoo-python
-#: code:addons/users_ldap_populate/models/users_ldap.py
+#: code:addons/users_ldap_populate/models/users_ldap.py:0
 #, python-format
 msgid ""
 "No login attribute found: Could not extract login attribute from filter %s"
@@ -128,7 +128,7 @@ msgstr "Popuni korisnike iz LDAP-a"
 
 #. module: users_ldap_populate
 #. odoo-python
-#: code:addons/users_ldap_populate/models/users_ldap.py
+#: code:addons/users_ldap_populate/models/users_ldap.py:0
 #, python-format
 msgid "Unable to process user with login %s"
 msgstr "Nije moguće obraditi korisnika sa loginom %s"

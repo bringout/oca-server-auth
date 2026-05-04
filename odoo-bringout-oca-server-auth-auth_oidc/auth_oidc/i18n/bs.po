@@ -45,7 +45,7 @@ msgstr "Verifikator koda"
 #. module: auth_oidc
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__jwks_uri
 msgid "JWKS URL"
-msgstr "JWKS URL"
+msgstr ""
 
 #. module: auth_oidc
 #: model:auth.oauth.provider,body:auth_oidc.provider_azuread_multi
@@ -55,7 +55,7 @@ msgstr "Prijavite se sa Microsoft"
 #. module: auth_oidc
 #: model:ir.model.fields.selection,name:auth_oidc.selection__auth_oauth_provider__flow__access_token
 msgid "OAuth2"
-msgstr "OAuth2"
+msgstr ""
 
 #. module: auth_oidc
 #: model:ir.model,name:auth_oidc.model_auth_oauth_provider
@@ -135,3 +135,13 @@ msgstr "npr. from:to upn:email sub:user_id"
 #: model:auth.oauth.provider,body:auth_oidc.local_keycloak
 msgid "keycloak:8080 on localhost"
 msgstr "keycloak:8080 na localhost"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__display_name
+msgid "Display Name"
+msgstr "Naziv za prikaz"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__id
+msgid "ID"
+msgstr "ID"

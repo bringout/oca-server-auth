@@ -20,7 +20,7 @@ msgstr "— ili —"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py
+#: code:addons/auth_saml/controllers/main.py:0
 #, python-format
 msgid "Access Denied"
 msgstr "Pristup Odbijen"
@@ -28,7 +28,7 @@ msgstr "Pristup Odbijen"
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: auth_saml
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__css_class
@@ -148,7 +148,7 @@ msgstr "Trenutni SAML token za ovog korisnika"
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: auth_saml
 #: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
@@ -254,7 +254,7 @@ msgstr ""
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__write_uid
@@ -304,7 +304,7 @@ msgstr "URL metapodataka"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py
+#: code:addons/auth_saml/controllers/main.py:0
 #, python-format
 msgid "Missing parameters"
 msgstr "Nedostaju parametri"
@@ -373,7 +373,7 @@ msgstr "Osvježi"
 #. module: auth_saml
 #: model_terms:ir.ui.view,arch_db:auth_saml.view_users_form
 msgid "SAML"
-msgstr "SAML"
+msgstr ""
 
 #. module: auth_saml
 #: model:ir.model,name:auth_saml.model_auth_saml_request
@@ -423,12 +423,12 @@ msgstr "SAML2 mapiranje atributa"
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_res_users__saml_ids
 msgid "Saml"
-msgstr "Saml"
+msgstr ""
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: auth_saml
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sign_authenticate_requests
@@ -442,7 +442,7 @@ msgstr "Potpiši metapodatke"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py
+#: code:addons/auth_saml/controllers/main.py:0
 #, python-format
 msgid "Sign up is not allowed on this database."
 msgstr "Prijava nije dozvoljena na ovoj bazi."
@@ -488,7 +488,7 @@ msgstr "Trenutni SAML token u upotrebi"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/models/res_users.py
+#: code:addons/auth_saml/models/res_users.py:0
 #, python-format
 msgid ""
 "This database disallows users to have both passwords and SAML IDs. Error for"
@@ -499,7 +499,7 @@ msgstr ""
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py
+#: code:addons/auth_saml/controllers/main.py:0
 #, python-format
 msgid "Unknown provider"
 msgstr "Nepoznat davatelj"
@@ -550,7 +550,7 @@ msgstr "Da li zahtjev treba biti potpisan ili ne"
 
 #. module: auth_saml
 #. odoo-python
-#: code:addons/auth_saml/controllers/main.py
+#: code:addons/auth_saml/controllers/main.py:0
 #, python-format
 msgid "You do not have access to this database. Please contact support."
 msgstr "Nemate pristup ovoj bazi podataka. Molimo kontaktirajte podršku."

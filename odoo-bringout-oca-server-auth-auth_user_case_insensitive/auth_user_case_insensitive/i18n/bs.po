@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: auth_user_case_insensitive
 #. odoo-python
-#: code:addons/auth_user_case_insensitive/hooks.py
+#: code:addons/auth_user_case_insensitive/hooks.py:0
 #, python-format
 msgid "Conflicting user logins exist for `%s`"
 msgstr "Korisnička imena se preklapaju za  `%s`"
