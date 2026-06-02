@@ -31,7 +31,7 @@ msgstr "Kompanije"
 #. module: vault_share
 #: model:ir.model,name:vault_share.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__create_uid
@@ -69,7 +69,7 @@ msgstr ""
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: vault_share
 #: model_terms:ir.ui.view,arch_db:vault_share.share
@@ -111,17 +111,17 @@ msgstr "Iv"
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__log_ids
