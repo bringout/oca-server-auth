@@ -16,7 +16,7 @@ msgstr ""
 # taken from hr.po
 #. module: auth_signup_verify_email
 #. odoo-python
-#: code:addons/auth_signup_verify_email/controllers/main.py
+#: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "Another user is already registered using this email address."
 msgstr "Drugi korisnik je već registriran sa ovom mail adresom."
@@ -24,7 +24,7 @@ msgstr "Drugi korisnik je već registriran sa ovom mail adresom."
 # taken from hr.po
 #. module: auth_signup_verify_email
 #. odoo-python
-#: code:addons/auth_signup_verify_email/controllers/main.py
+#: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "Check your email to activate your account!"
 msgstr "Provjerite svoj e-mail za aktivaciu računa!"
@@ -32,7 +32,7 @@ msgstr "Provjerite svoj e-mail za aktivaciu računa!"
 # taken from hr.po
 #. module: auth_signup_verify_email
 #. odoo-python
-#: code:addons/auth_signup_verify_email/controllers/main.py
+#: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "Something went wrong, please try again later or contact us."
 msgstr "Nešto nije u redu, molimo pokušajte ponovo ili nas kontaktirajte."
@@ -40,7 +40,7 @@ msgstr "Nešto nije u redu, molimo pokušajte ponovo ili nas kontaktirajte."
 # taken from hr.po
 #. module: auth_signup_verify_email
 #. odoo-python
-#: code:addons/auth_signup_verify_email/controllers/main.py
+#: code:addons/auth_signup_verify_email/controllers/main.py:0
 #, python-format
 msgid "That does not seem to be an email address."
 msgstr "Ovo ne izgleda kao e-mail adresa."

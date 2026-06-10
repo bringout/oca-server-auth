@@ -16,14 +16,14 @@ msgstr ""
 # taken from hr.po
 #. module: auth_admin_passkey
 #. odoo-python
-#: code:addons/auth_admin_passkey/models/res_users.py
+#: code:addons/auth_admin_passkey/models/res_users.py:0
 #, python-format
 msgid "Passkey used"
 msgstr "Korišten ključ"
 
 #. module: auth_admin_passkey
 #. odoo-python
-#: code:addons/auth_admin_passkey/models/res_users.py
+#: code:addons/auth_admin_passkey/models/res_users.py:0
 #, python-format
 msgid ""
 "System Administrator user used his passkey to login with %(login)s.\n"

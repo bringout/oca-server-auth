@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: impersonate_login
 #. odoo-javascript
-#: code:addons/impersonate_login/static/src/js/user_menu.esm.js
+#: code:addons/impersonate_login/static/src/js/user_menu.esm.js:0
 #, python-format
 msgid "Back to Original User"
 msgstr "Povratak na originalnog korisnika"
@@ -43,7 +43,7 @@ msgstr "Kreirano"
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: impersonate_login
 #: model:ir.model,name:impersonate_login.model_mail_thread
@@ -53,7 +53,7 @@ msgstr "Nit e-pošte"
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__date_end
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: impersonate_login
 #: model:ir.model,name:impersonate_login.model_ir_http
@@ -92,7 +92,7 @@ msgstr "Oponašani zapisnici"
 
 #. module: impersonate_login
 #. odoo-python
-#: code:addons/impersonate_login/models/res_users.py
+#: code:addons/impersonate_login/models/res_users.py:0
 #, python-format
 msgid "It's you."
 msgstr "To ste vi."
@@ -100,7 +100,7 @@ msgstr "To ste vi."
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__write_uid
@@ -119,7 +119,7 @@ msgstr "Prijavljen kao"
 
 #. module: impersonate_login
 #. odoo-python
-#: code:addons/impersonate_login/models/mail_message.py
+#: code:addons/impersonate_login/models/mail_message.py:0
 #, python-format
 msgid "Logged in as {}"
 msgstr "Prijavljen kao {}"
@@ -132,11 +132,11 @@ msgstr "Poruka"
 #. module: impersonate_login
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__date_start
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: impersonate_login
 #. odoo-javascript
-#: code:addons/impersonate_login/static/src/js/user_menu.esm.js
+#: code:addons/impersonate_login/static/src/js/user_menu.esm.js:0
 #, python-format
 msgid "Switch Login"
 msgstr "Prebaci prijavu"
@@ -148,7 +148,7 @@ msgstr "Korisnik"
 
 #. module: impersonate_login
 #. odoo-python
-#: code:addons/impersonate_login/models/res_users.py
+#: code:addons/impersonate_login/models/res_users.py:0
 #, python-format
 msgid "You are already Logged as another user."
 msgstr "Već ste prijavljeni kao drugi korisnik."

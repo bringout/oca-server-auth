@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
 #, python-format
 msgid ""
 "A cookie name must be provided on JWT validator %s because it has cookie "
@@ -52,7 +52,7 @@ msgstr ""
 #. module: auth_jwt
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
 msgid "Cookie"
-msgstr "Cookie"
+msgstr ""
 
 #. module: auth_jwt
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__cookie_enabled
@@ -92,7 +92,7 @@ msgstr "Kreirano"
 #. module: auth_jwt
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: auth_jwt
 #: model:ir.model.fields.selection,name:auth_jwt.selection__auth_jwt_validator__public_key_algorithm__es256
@@ -157,7 +157,7 @@ msgstr "Izdavac"
 #. module: auth_jwt
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
 msgid "JWK URI"
-msgstr "JWK URI"
+msgstr ""
 
 #. module: auth_jwt
 #: model:ir.model,name:auth_jwt.model_auth_jwt_validator
@@ -182,7 +182,7 @@ msgstr "Ključ"
 #. module: auth_jwt
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: auth_jwt
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__write_uid
@@ -197,11 +197,11 @@ msgstr "Zadnje ažurirano"
 #. module: auth_jwt
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
 #, python-format
 msgid "Name %r is not a valid python identifier."
 msgstr "Naziv %r nije valjani python identifikator."
@@ -338,7 +338,7 @@ msgstr "Strategija ID korisnika"
 
 #. module: auth_jwt
 #. odoo-python
-#: code:addons/auth_jwt/models/auth_jwt_validator.py
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
 #, python-format
 msgid "Validators mustn't make a closed chain: {}."
 msgstr "Validatori ne smiju praviti zatvoreni lanac: {}."

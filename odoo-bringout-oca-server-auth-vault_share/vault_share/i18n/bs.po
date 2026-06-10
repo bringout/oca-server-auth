@@ -51,7 +51,7 @@ msgstr "Dani"
 #. module: vault_share
 #: model_terms:ir.ui.view,arch_db:vault_share.res_config_settings_view_form
 msgid "Delay the deletion of shares"
-msgstr "Delay the deletion of shares"
+msgstr ""
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_res_config_settings__vault_share_delay
@@ -69,12 +69,12 @@ msgstr ""
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: vault_share
 #: model_terms:ir.ui.view,arch_db:vault_share.share
 msgid "Enter the pin:"
-msgstr "Enter the pin:"
+msgstr ""
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__expiration
@@ -93,7 +93,7 @@ msgstr "ID"
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/controllers/main.py
+#: code:addons/vault_share/controllers/main.py:0
 #, python-format
 msgid "Invalid token"
 msgstr "Nevažeći token"
@@ -111,7 +111,7 @@ msgstr "Iv"
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__write_uid
@@ -131,11 +131,11 @@ msgstr "Dnevnik"
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/models/vault_share.py
+#: code:addons/vault_share/models/vault_share.py:0
 #, python-format
 msgid "No value found"
 msgstr "Vrijednost nije pronađena"
@@ -148,7 +148,7 @@ msgstr "PIN"
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__salt
 msgid "Salt"
-msgstr "Salt"
+msgstr ""
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__secret
@@ -172,27 +172,27 @@ msgstr "URL Dijeljenja"
 
 #. module: vault_share
 #. odoo-javascript
-#: code:addons/vault_share/static/src/backend/fields/vault_field.esm.js
+#: code:addons/vault_share/static/src/backend/fields/vault_field.esm.js:0
 #, python-format
 msgid "Share the secret"
-msgstr "Share the secret"
+msgstr ""
 
 #. module: vault_share
 #. odoo-javascript
-#: code:addons/vault_share/static/src/backend/fields/templates.xml
+#: code:addons/vault_share/static/src/backend/fields/templates.xml:0
 #, python-format
 msgid "Share the secret with an external user"
-msgstr "Share the secret with an external user"
+msgstr ""
 
 #. module: vault_share
 #: model_terms:ir.ui.view,arch_db:vault_share.share
 msgid "Shared file:"
-msgstr "Shared file:"
+msgstr ""
 
 #. module: vault_share
 #: model_terms:ir.ui.view,arch_db:vault_share.share
 msgid "Shared secret:"
-msgstr "Shared secret:"
+msgstr ""
 
 #. module: vault_share
 #: model:ir.actions.act_window,name:vault_share.action_vault_share
@@ -217,21 +217,21 @@ msgstr "PIN potreban za dešifrovanje dijeljenja."
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/controllers/main.py
+#: code:addons/vault_share/controllers/main.py:0
 #, python-format
 msgid "The secret expired"
-msgstr "The secret expired"
+msgstr ""
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/models/vault_share.py
+#: code:addons/vault_share/models/vault_share.py:0
 #, python-format
 msgid "The share was accessed by %(name)s via %(ip)s"
-msgstr "The share was accessed by %(name)s via %(ip)s"
+msgstr ""
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/models/vault_share.py
+#: code:addons/vault_share/models/vault_share.py:0
 #, python-format
 msgid "The share was created by %(name)s"
 msgstr "Dijeljenje je kreirao %(name)s"
@@ -239,7 +239,7 @@ msgstr "Dijeljenje je kreirao %(name)s"
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__token
 msgid "Token"
-msgstr "Token"
+msgstr ""
 
 #. module: vault_share
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__user_id
@@ -253,7 +253,7 @@ msgstr "Koristeći ovaj link i PIN ljudi mogu pristupiti tajni."
 
 #. module: vault_share
 #. odoo-javascript
-#: code:addons/vault_share/static/src/backend/fields/vault_pin_field.esm.js
+#: code:addons/vault_share/static/src/backend/fields/vault_pin_field.esm.js:0
 #, python-format
 msgid "Vault Pin Field"
 msgstr "Polje PIN za Sef"
@@ -265,21 +265,21 @@ msgstr "Kašnjenje Dijeljenja Sefa"
 
 #. module: vault_share
 #. odoo-javascript
-#: code:addons/vault_share/static/src/backend/fields/vault_share_field.esm.js
+#: code:addons/vault_share/static/src/backend/fields/vault_share_field.esm.js:0
 #, python-format
 msgid "Vault Share Field"
 msgstr "Polje Dijeljenja Sefa"
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/models/vault_share_log.py
+#: code:addons/vault_share/models/vault_share_log.py:0
 #, python-format
 msgid "Vault share log"
 msgstr "Zapisnik dijeljenja sefa"
 
 #. module: vault_share
 #. odoo-python
-#: code:addons/vault_share/models/vault_share.py
+#: code:addons/vault_share/models/vault_share.py:0
 #, python-format
 msgid "Vault share outgoing secrets"
 msgstr "Odlazni tajni podaci dijeljenja sefa"
