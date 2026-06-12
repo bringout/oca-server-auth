@@ -14,6 +14,6 @@
     "data": ["views/auth_oauth_provider.xml"],
     "demo": [],
     "assets": {
-        "web.assets_frontend": ["auth_oauth_autologin/static/src/js/web_login.js"]
+        "web.assets_frontend": ["auth_oauth_autologin/static/src/js/*.js"]
     },
 }
